@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    font-size: 2.5rem;
+
+}
+h3{
+font-family: 'Montserrat', sans-serif;
+font-size: 1.5rem;
+}
+p{
+    color: #8f8f8f ;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid{
+    padding:  3% 7% 7%;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+#title .container-fluid{
+  padding: 3% 15% ;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-image{
+    width: 18%;
+    transform: rotate(15deg);
+    position: absolute;
+}
+
+#features{
+    padding: 7% 15%;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #fff;
+    position: relative;
+
+}
+.features-box{
+    padding: 4.5%;
+    text-align: center;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+#testimonials{
+   
+    text-align: center;
+   background-color: #ef8172;
+   color: #fff;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.testimonial-text{
+    text-align: center;
+   font-size: 2.5rem;
+
+}
+/* press */
+
+#press{
+    text-align: center;
+   background-color: #ef8172;
+   padding-bottom: 3%;
+}
+.press-logo{
+    width: 20%;
+   margin: 20px 20px 50px;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+  
+
+}
+.cta-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.social-icon{
+    margin: 10px 10px;
+}
+@media (max-width: 1028px) {
+
+    #title {
+      text-align: center;
+    }
+  
+    .title-image {
+      position: static;
+      transform: rotate(0);
+    }
+  }
+  
